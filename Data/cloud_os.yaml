@@ -1,0 +1,97 @@
+test-login:
+  username: 'tangorder01@tang.com'
+  password: 'tangbo123'
+pre-login:
+  username: '17813266357'
+  password: 'yzyy-121118#2'
+pro-login:
+  username: 'tang01@tang.com'
+  password: 'Tangbo123QAZ'
+cq-gpu-params:
+  az_id: '5a130dd8-95e2-11ec-b131-1efd5a8f8465'
+  is_gpu: 1  # 1：创建GPU机器 0：CPU机器
+  gpu_id: '6d103608-79ba-11ec-b4f5-0456e530f43e'
+  utc_time: 'false' # false为上海时间  true为utc时间
+  vpc_id: 'ab23cbde-a688-11ec-ac58-4a2fbffe3f9e'
+  region_id: 'd4ee8b78-95e1-11ec-b32e-2a8d1f4e167e'
+  vpc_segment_address: '10.4.0.0/16'
+  subnet_id: 'ab2bc5d2-a688-11ec-ac58-4a2fbffe3f9e'
+  ecs_goods_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  spec_family_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  gic_goods_id: 16589
+  ecs_family_name: 'vCR-12C24GON2-A5000-AMD'
+  cpu: 12
+  ram: 24
+  gpu: 1
+  support_gpu_driver: 'Datacenter'
+  billing_scheme_id: 'ee04e350-990b-11ec-9fe8-dee2642e3814'
+  ram_bill_id: '5e92bf26-990b-11ec-8b75-dee2642e3814'
+  local_disk-space_bill_id: '978f2f8a-990b-11ec-80f0-dee2642e3814'
+  local_disk-IOPS_bill_id: 'b0b32822-990b-11ec-9fb8-dee2642e3814'
+  gpu_bill_id: '888ef060-990b-11ec-b469-dee2642e3814'
+  os_bill_id: '77063470-990b-11ec-9779-dee2642e3814'
+  cpu_bill_id: '2fba88aa-990b-11ec-8c8d-dee2642e3814'
+  local_disk-throughput_bill_id: 'c148e816-990b-11ec-a30e-dee2642e3814'
+  disk_bill_info: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  disk_billing_scheme_id: 'ee04e350-990b-11ec-9fe8-dee2642e3814'
+  disk_storage_space_id: '86a79f6c-8eda-11ec-a30e-dee2642e3814'
+  disk_iops_id: 'a00e9640-8eda-11ec-b47c-02f6ca8ca3d2'
+  disk_handling_capacity_id: 'b328a9b4-8eda-11ec-820a-02f6ca8ca3d2'
+  disk_feature: 'local'
+  disk_size: 40
+  disk_type: "system"
+  ebs_goods_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  os_id: "b2624c3c-d28e-4586-bf1a-20db4be3f680"
+  os_type: 'Centos'
+  num: 1
+  ecs_name: 'cq-amd-a5000'
+  username: 'root'
+  password: 'QQQqqq111'
+bd-gpu-params:
+  az_id: '9efa59c0-a0db-11ec-aefa-1efd5a8f8465'
+  is_gpu: 1  # 1：创建GPU机器 0：CPU机器
+  gpu_id: '6d103608-79ba-11ec-b4f5-0456e530f43e'
+  utc_time: 'false' # false为上海时间  true为utc时间
+  vpc_id: 'ab23cbde-a688-11ec-ac58-4a2fbffe3f9e'
+  region_id: 'd4ee8b78-95e1-11ec-b32e-2a8d1f4e167e'
+  vpc_segment_address: '10.4.0.0/16'
+  subnet_id: 'ab2bc5d2-a688-11ec-ac58-4a2fbffe3f9e'
+  ecs_goods_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  spec_family_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  gic_goods_id: 16589
+  ecs_family_name: 'vCR-12C24GON2-A5000-AMD'
+  cpu: 12
+  ram: 24
+  gpu: 1
+  support_gpu_driver: 'Datacenter'
+  billing_scheme_id: 'ee04e350-990b-11ec-9fe8-dee2642e3814'
+  ram_bill_id: '5e92bf26-990b-11ec-8b75-dee2642e3814'
+  local_disk-space_bill_id: '978f2f8a-990b-11ec-80f0-dee2642e3814'
+  local_disk-IOPS_bill_id: 'b0b32822-990b-11ec-9fb8-dee2642e3814'
+  gpu_bill_id: '888ef060-990b-11ec-b469-dee2642e3814'
+  os_bill_id: '77063470-990b-11ec-9779-dee2642e3814'
+  cpu_bill_id: '2fba88aa-990b-11ec-8c8d-dee2642e3814'
+  local_disk-throughput_bill_id: 'c148e816-990b-11ec-a30e-dee2642e3814'
+  disk_bill_info: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  disk_billing_scheme_id: 'ee04e350-990b-11ec-9fe8-dee2642e3814'
+  disk_storage_space_id: '86a79f6c-8eda-11ec-a30e-dee2642e3814'
+  disk_iops_id: 'a00e9640-8eda-11ec-b47c-02f6ca8ca3d2'
+  disk_handling_capacity_id: 'b328a9b4-8eda-11ec-820a-02f6ca8ca3d2'
+  disk_feature: 'local'
+  disk_size: 40
+  disk_type: "system"
+  ebs_goods_id: '52df80e2-99ce-11ec-b0b0-1efd5a8f8465'
+  os_id: "b2624c3c-d28e-4586-bf1a-20db4be3f680"
+  os_type: 'Centos'
+  num: 1
+  ecs_name: 'cq-amd-a5000'
+  username: 'root'
+  password: 'QQQqqq111'
+
+
+
+
+
+
+
+
