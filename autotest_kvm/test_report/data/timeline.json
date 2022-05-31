@@ -1,0 +1,133 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "cds20200928-001",
+    "children" : [ {
+      "name" : "8304-MainThread",
+      "children" : [ {
+        "name" : "test_gpu",
+        "uid" : "4b95a3ea62f95f8d",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653982697419,
+          "stop" : 1653982697419,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机创建测试",
+        "uid" : "9142ab9f18d388fa",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653981608734,
+          "stop" : 1653981811402,
+          "duration" : 202668
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机开机测试",
+        "uid" : "33fb973f92152e34",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653981945029,
+          "stop" : 1653982078713,
+          "duration" : 133684
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机更改密码测试",
+        "uid" : "8343ef3e88a5780",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653982078716,
+          "stop" : 1653982224564,
+          "duration" : 145848
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机更换操作系统测试",
+        "uid" : "6d62f3fe113dd521",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653982353278,
+          "stop" : 1653982678877,
+          "duration" : 325599
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_kvm_billing",
+        "uid" : "6d29f8f3d9835f31",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653981608722,
+          "stop" : 1653981608722,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机重启测试",
+        "uid" : "b2b4c342bcd99ab9",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653982224568,
+          "stop" : 1653982353273,
+          "duration" : 128705
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_kvm_cost",
+        "uid" : "9d3f6e8a3791abc8",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653981608730,
+          "stop" : 1653981608730,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机删除测试",
+        "uid" : "d4f05dbe4175e680",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653982678880,
+          "stop" : 1653982697382,
+          "duration" : 18502
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "kvm云主机关机测试",
+        "uid" : "a20123aa8826fbee",
+        "parentUid" : "791b1f93ae0f780a53953a5d3d2610de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653981811405,
+          "stop" : 1653981945026,
+          "duration" : 133621
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "791b1f93ae0f780a53953a5d3d2610de"
+    } ],
+    "uid" : "7705d5709c77fa65d281a3132313d3c8"
+  } ]
+}

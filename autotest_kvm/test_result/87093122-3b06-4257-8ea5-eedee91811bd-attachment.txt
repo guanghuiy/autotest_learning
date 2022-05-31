@@ -1,0 +1,18 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:63 kvm云主机开始创建测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:84 云主机创建任务执行完成，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:99 云主机创建任务结束，等候2分钟继续执行下一个测试用例。

@@ -1,0 +1,77 @@
+{
+  "uid" : "6d62f3fe113dd521",
+  "name" : "kvm云主机更换操作系统测试",
+  "fullName" : "autotest_kvm.Case.test_kvm_api.TestKvmApi#test_kvm_change_os",
+  "historyId" : "06a2cf1c32c67ee3aef4749c5c612b54",
+  "time" : {
+    "start" : 1653982353278,
+    "stop" : 1653982678877,
+    "duration" : 325599
+  },
+  "description" : "\n        更换操作系统\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    更换操作系统\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        更换操作系统\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebf98f61d39bce06",
+      "name" : "log",
+      "source" : "ebf98f61d39bce06.txt",
+      "type" : "text/plain",
+      "size" : 2790
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "kvm云主机主流程自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "autotest_kvm.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_kvm_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKvmApi"
+  }, {
+    "name" : "host",
+    "value" : "cds20200928-001"
+  }, {
+    "name" : "thread",
+    "value" : "8304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "autotest_kvm.Case.test_kvm_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d62f3fe113dd521.json",
+  "parameterValues" : [ ]
+}

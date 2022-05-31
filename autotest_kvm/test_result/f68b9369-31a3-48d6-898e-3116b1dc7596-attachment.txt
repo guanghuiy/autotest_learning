@@ -1,0 +1,5 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:109 kvm云主机开始执行关机测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:128 云主机关机任务执行成功，云主机为已关机状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:144 云主机关机任务结束，等待2分钟继续执行下一个测试用例

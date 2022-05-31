@@ -1,0 +1,10 @@
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     root:function.py:16 get_token : {'status': 'success', 'Access-Token': 'd78ef3227aa68901ef7d732a7dfc3c803c0eb4820988d3cf65bdca35361ed096'}
+INFO     root:function.py:16 get_token : {'status': 'success', 'Access-Token': 'd78ef3227aa68901ef7d732a7dfc3c802acd3f440d6298d2a4f2ac88aaf44fc6'}
+INFO     kvm_main_process_autotest:test_kvm_api.py:155 kvm云主机开始执行开机测试用例
+ERROR    kvm_main_process_autotest:test_kvm_api.py:188 云主机开机任务下发失败：下发操作云服务器任务失败：所选实例:ins-pqn4cdvqsu7veg3s(cq-autotest-001)状态冲突,不能执行所选操作!

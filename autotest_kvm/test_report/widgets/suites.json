@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "591f6f916857fce19ed20befee652aac",
+    "name" : "autotest_kvm.Case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

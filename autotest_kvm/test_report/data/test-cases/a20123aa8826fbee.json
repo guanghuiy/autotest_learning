@@ -1,0 +1,77 @@
+{
+  "uid" : "a20123aa8826fbee",
+  "name" : "kvm云主机关机测试",
+  "fullName" : "autotest_kvm.Case.test_kvm_api.TestKvmApi#test_kvm_shutdown",
+  "historyId" : "bdd955d734e5d3198f6d13833f6e0ff5",
+  "time" : {
+    "start" : 1653981811405,
+    "stop" : 1653981945026,
+    "duration" : 133621
+  },
+  "description" : "\n        GPU云主机关机\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    GPU云主机关机\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        GPU云主机关机\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df06fac936ef7c37",
+      "name" : "log",
+      "source" : "df06fac936ef7c37.txt",
+      "type" : "text/plain",
+      "size" : 618
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "kvm云主机主流程自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "autotest_kvm.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_kvm_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKvmApi"
+  }, {
+    "name" : "host",
+    "value" : "cds20200928-001"
+  }, {
+    "name" : "thread",
+    "value" : "8304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "autotest_kvm.Case.test_kvm_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a20123aa8826fbee.json",
+  "parameterValues" : [ ]
+}

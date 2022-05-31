@@ -1,0 +1,4 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:255 kvm云主机开始执行重启测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:269 云主机 restart_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:274 云主机重启任务执行成功，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:290 云主机重启任务结束，等待2分钟继续执行下一个测试用例

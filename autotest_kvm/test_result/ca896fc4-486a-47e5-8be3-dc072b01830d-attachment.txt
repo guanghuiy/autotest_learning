@@ -1,0 +1,5 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:154 kvm云主机开始执行开机测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:168 云主机 start_up_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:168 云主机 start_up_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:173 云主机开机任务执行成功，云主机为已运行状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:189 云主机开机任务结束，等待2分钟继续执行下一个测试用例

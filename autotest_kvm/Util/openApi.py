@@ -1,12 +1,15 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+# Created by guanghui.yang on 2022/05/06
+import pymysql
 import requests
-from jsonpath import jsonpath
 from Data.common_api import PRO_GPU_URL
 from autotest_kvm.Util import support
 from autotest_kvm.Util.function import get_token
 from autotest_kvm.Util.request import Request
 
 conf = support.read_yaml("cloud_os")["pro-login"]
-params = support.read_yaml("cloud_os")["cq-gpu-params"]
+params = support.read_yaml("cloud_os")["ly-gpu-params"]
 Req = Request()
 
 
@@ -142,7 +145,6 @@ class KVMApi():
         res = Req.request(url, 'post', self.header, body)
         return res
 
-
     def startup_kvm(self, EcsIds):
         """
         云主机开机
@@ -151,13 +153,13 @@ class KVMApi():
         """
         url = self.url + '/gic_business/v1/ecs/operate/'
         body = {
-            'ecs_ids': EcsIds,
+            'ecs_ids': [EcsIds],
             'op_type': 'start_up_ecs'
         }
         # post提交方式有两种 表单提交 为data=body json提交为json=body
         # res = requests.post(self.url + '/gic_business/v1/ecs/operate/', headers=self.header, json=body).json()
         res = Req.request(url, 'post', self.header, body)
-        print("msg:", res['message'])
+        # print("msg:", res['message'])
         return res
 
     def shutdown_kvm(self, EcsIds):
@@ -168,14 +170,50 @@ class KVMApi():
         """
         url = self.url + '/gic_business/v1/ecs/operate/'
         body = {
-            'ecs_ids': EcsIds,
+            'ecs_ids': [EcsIds],
             'op_type': 'shutdown_ecs'
         }
         # res = requests.post(self.url + '/gic_business/v1/ecs/operate/', headers=self.header, json=body).json()
         res = Req.request(url, 'post', self.header, body)
-        print("msg:", res['message'])
+        # print("msg:", res['message'])
         return res
 
+    def restart_kvm(self, EcsIds):
+        """
+        云主机重启
+        :param EcsIds:
+        :return:
+        """
+        url = self.url + '/gic_business/v1/ecs/operate/'
+        body = {
+            'ecs_ids': [EcsIds],
+            'op_type': 'restart_ecs'
+        }
+        res = Req.request(url, 'post', self.header, body)
+        return res
+
+    def change_password(self, EcsIds, password):
+        """
+        云主机重置密码
+        :param EcsIds: 云主机id
+        :param password: 新修改的密码
+        :return:
+        """
+        url = self.url + '/gic_business/v1/ecs/ecs_reset_password/'
+        body = {
+            'ecs_ids': [EcsIds],
+            'password': password
+        }
+        res = Req.request(url, 'post', self.header, body)
+        return res
+
+    def delete_kvm(self, EcsIds):
+        body = {
+            "ecs_ids": [EcsIds]
+        }
+        url = self.url + '/gic_business/v1/ecs/delete/'
+        res = Req.request(url, 'post', self.header, body)
+        return res
     def get_kvm_list(self, pageSize):
         """
         获取云主机列表信息
@@ -192,11 +230,11 @@ class KVMApi():
         return res
         # ecs_info = jsonpath.jsonpath(res, '$..[?(@.)]')
 
-    def get_kvm_status(self, ecsIds):
+    def get_kvm_status(self, ecsId):
         body = {
             "page_index": 1,
             "page_size": 300,
-            "search_info": ecsIds
+            "search_info": ecsId
         }
         res = requests.get(self.url + '/gic_business/v1/ecs/ecs_list/', headers=self.header, json=body).json()
         ecs_list = res['data']['ecs_list']
@@ -223,3 +261,84 @@ class KVMApi():
         url = 'http://cos-ecs-service.gic.pre/ecs_service/v1/ecs/ecs_info/'
         res = Req.request(url, "post", self.header, body)
         return res
+
+    def select_ecs_task(self, eventId):
+        """
+        数据库查询任务相关
+        :param eventId:
+        :return:
+        """
+        conn = pymysql.connect(host="10.13.132.242", port=6033, user="test_group", password="x7nQMoWzPiybyV2F", db="cloud_os")
+        cur = conn.cursor(cursor=pymysql.cursors.DictCursor)
+        eventId = eventId
+        cur.execute("SELECT * FROM `cloud_os`.cloud_os_task WHERE event_id = '" + eventId + "' ORDER BY create_time desc")
+        result = cur.fetchone()
+        cur.close()
+        conn.close()
+        return result
+
+    def decode(self, password):
+        """
+        kvm机器密码解密
+        :param password: 设置的密码
+        :return:
+        """
+        body = {
+            "encrypt_version": "V1",
+            "cipher_text": password,
+            "goods_type": "ecs",
+            "security_key": "8edd11d2-ea1f-11eb-8976-30c9ab46699c"
+        }
+        url = "https://securitycenter.capitalonline.net/security_center/decrypt/"
+        res = Req.request(url, 'post', None, body)
+        return res
+
+    def change_os(self, EcsIds, password):
+        body = {
+            "ecs_ids": [EcsIds],
+            "az_id": params["az_id"],
+            "os_id": "abde20c0-7f39-4e0d-8b58-231afa989561",
+            "os_type": "Ubuntu",
+            "password": password,
+            "billing_info": {
+                "billing_scheme_id": "",
+                "billing_cycle_id": "",
+                "billing_items": {
+                "disk": {
+                    "id": "",
+                    "key": ""
+                }
+                }
+            },
+            "disk_info": {
+                "system_disk": {
+                    "ebs_goods_id": "",
+                    "ecs_goods_name": "",
+                    "disk_type": "system",
+                    "disk_feature": params["disk_feature"],
+                    "origin_disk_size": params["disk_size"],
+                    "disk_size": params["disk_size"],
+                    "handling_capacity": 96,
+                    "local_disk-iops": 2520,
+                    "local_disk-space": params["disk_size"],
+                    "local_disk-throughput": 96,
+                    "storage_space": params["disk_size"],
+                    "is_follow_delete": 1,
+                }
+            }
+        }
+        url = self.url + '/gic_business/v1/ecs/ecs_change_system/'
+        res = Req.request(url, 'post', self.header, body)
+        return res
+
+
+    def select_ecs_info(self, ecsId):
+        conn = pymysql.connect(host="10.13.132.242", port=6033, user="test_group", password="x7nQMoWzPiybyV2F", db="cloud_os")
+        cur = conn.cursor(cursor=pymysql.cursors.DictCursor)
+        ecsId = ecsId
+        cur.execute("SELECT * FROM `cloud_os`.cloud_os_ecs WHERE ecs_id = '" + ecsId + "' ")
+        result = cur.fetchone()
+        cur.close()
+        conn.close()
+        return result
+

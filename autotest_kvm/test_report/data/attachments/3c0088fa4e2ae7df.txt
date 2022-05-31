@@ -1,0 +1,7 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:199 kvm云主机开始执行重置密码测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:225 云主机重置密码任务执行成功，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:245 云主机重置密码任务结束，等候2分钟后继续执行下个测试用例。

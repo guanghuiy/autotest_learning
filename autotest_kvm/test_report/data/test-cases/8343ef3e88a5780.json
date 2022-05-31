@@ -1,0 +1,77 @@
+{
+  "uid" : "8343ef3e88a5780",
+  "name" : "kvm云主机更改密码测试",
+  "fullName" : "autotest_kvm.Case.test_kvm_api.TestKvmApi#test_kvm_change_password",
+  "historyId" : "55be774bdacc7135976d8b22f8cce405",
+  "time" : {
+    "start" : 1653982078716,
+    "stop" : 1653982224564,
+    "duration" : 145848
+  },
+  "description" : "\n        云主机重置密码测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    云主机重置密码测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        云主机重置密码测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c0088fa4e2ae7df",
+      "name" : "log",
+      "source" : "3c0088fa4e2ae7df.txt",
+      "type" : "text/plain",
+      "size" : 918
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "kvm云主机主流程自动化测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "autotest_kvm.Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_kvm_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKvmApi"
+  }, {
+    "name" : "host",
+    "value" : "cds20200928-001"
+  }, {
+    "name" : "thread",
+    "value" : "8304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "autotest_kvm.Case.test_kvm_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8343ef3e88a5780.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "04fb295620c6a39145f175b5516bf68e",
+    "name" : "kvm云主机主流程自动化测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

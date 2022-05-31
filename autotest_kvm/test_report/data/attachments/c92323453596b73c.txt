@@ -1,0 +1,6 @@
+INFO     kvm_main_process_autotest:test_kvm_api.py:357 kvm云主机开始执行删除（销毁）测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:377 云主机删除（销毁）任务执行成功，云主机为已销毁状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:393 云主机删除（销毁）任务结束，至此kvm主流程测试用例全部结束，请查看测试报告！

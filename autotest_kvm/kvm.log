@@ -1,0 +1,74 @@
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     AutoTest_Api:support.py:17 Start to read yaml file : cloud_os.yaml
+INFO     AutoTest_Api:support.py:20 Had read the info
+INFO     root:function.py:16 get_token : {'status': 'success', 'Access-Token': 'd78ef3227aa68901ef7d732a7dfc3c803b13ffbdc1f513648050a99eee9bae7f'}
+INFO     root:function.py:16 get_token : {'status': 'success', 'Access-Token': 'd78ef3227aa68901ef7d732a7dfc3c801f1e80a62cedeea6040cff81bd505992'}
+INFO     kvm_main_process_autotest:test_kvm_api.py:63 kvm云主机开始创建测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:79 云主机 create_gpu_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:84 云主机创建任务执行完成，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:99 云主机创建任务结束，等候2分钟继续执行下一个测试用例。
+INFO     kvm_main_process_autotest:test_kvm_api.py:109 kvm云主机开始执行关机测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:128 云主机关机任务执行成功，云主机为已关机状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:144 云主机关机任务结束，等待2分钟继续执行下一个测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:154 kvm云主机开始执行开机测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:168 云主机 start_up_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:168 云主机 start_up_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:173 云主机开机任务执行成功，云主机为已运行状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:189 云主机开机任务结束，等待2分钟继续执行下一个测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:199 kvm云主机开始执行重置密码测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:214 云主机 reset_ecs_password 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:225 云主机重置密码任务执行成功，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:245 云主机重置密码任务结束，等候2分钟后继续执行下个测试用例。
+INFO     kvm_main_process_autotest:test_kvm_api.py:255 kvm云主机开始执行重启测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:269 云主机 restart_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:274 云主机重启任务执行成功，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:290 云主机重启任务结束，等待2分钟继续执行下一个测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:300 kvm云主机开始执行更换操作系统测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:109 kvm云主机开始执行关机测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:123 云主机 shutdown_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:128 云主机关机任务执行成功，云主机为已关机状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:144 云主机关机任务结束，等待2分钟继续执行下一个测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:316 云主机 change_ecs_system 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:327 云主机更换操作系统任务执行成功，云主机为运行中状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:347 云主机更换操作系统任务结束，等待2分钟继续执行下一个测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:357 kvm云主机开始执行删除（销毁）测试用例
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：doing，任务完成进度为：
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：doing，任务完成进度为：50%
+INFO     kvm_main_process_autotest:test_kvm_api.py:371 云主机 destroy_ecs 任务状态为：success，任务完成进度为：100%
+INFO     kvm_main_process_autotest:test_kvm_api.py:377 云主机删除（销毁）任务执行成功，云主机为已销毁状态！
+INFO     kvm_main_process_autotest:test_kvm_api.py:393 云主机删除（销毁）任务结束，至此kvm主流程测试用例全部结束，请查看测试报告！
